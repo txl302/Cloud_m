@@ -72,7 +72,7 @@ function varargout = Cloud_m_OutputFcn(hObject, eventdata, handles)
 % Get default command line output from handles structure
 varargout{1} = handles.output;
 
-im1 = imread('../resource/black.bmp');
+im1 = imread('../resource/screen.png');
 axes(handles.axes1);
 imshow(im1);
 
